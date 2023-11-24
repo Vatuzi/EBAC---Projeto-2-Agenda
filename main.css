@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+header{
+    align-items: center;
+    margin-left: 220px;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 80px;
+    margin-left: 34px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body{
+    padding-top: 100px
+}
+
+.container{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+tbody img{
+    height: 25px;
+}
+
+form{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+form input{
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 4px;
+}
+
+form button{
+    background-color: #009432;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor:pointer;
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+tbody td{
+    padding: 8px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.totalContatos{
+    margin-top: 30px;
+}
+
